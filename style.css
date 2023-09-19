@@ -1,0 +1,77 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 30,30);
+    color: rgb(235, 233, 231);
+}
+/* .img{
+    outline: 1px solid white;
+} */
+
+.img-garden{
+    height: 100vh;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 5rem;
+}
+
+.bigcol{
+    grid-column: span 2;
+}
+
+.bigrow{
+    grid-row: span 2;
+}
+
+
+ #fir{
+    border: 1 px solid red;
+    background-image: url(./img/paris-1852928_1280.jpg);
+    background-size: cover;background-position: center;
+
+}
+
+
+ #sec{
+    border: 1 px solid red;
+    background-image: url(./img/building-66789_1280.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#thi{
+    border: 1 px solid red;
+    background-image: url(./img/tower-103417_1280.jpg);
+    background-size: cover;background-position: center;
+}
+
+ #fou{
+    border: 1 px solid red;
+    background-image: url(./img/lavender-7489530_1280.jpg);
+    background-size: cover;background-position: center;
+
+
+}
+
+#fif{
+    border: 1 px solid red;
+    background-image: url(./img/wines-1761613_1280.jpg);
+    background-size: cover;background-position: center;
+
+}
+
+#six{
+    border: 1 px solid red;
+    background-image: url(./img/paris-1852928_1280.jpg);
+    background-size: cover;background-position: center;
+
+}
+ 
